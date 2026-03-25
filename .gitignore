@@ -1,0 +1,46 @@
+# ---- Python / bytecode ----
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- uv / lock / caches ----
+.uv/
+uv-cache/
+# (uv.lock solltest du i.d.R. COMMITTEN -> daher NICHT ignorieren)
+
+# ---- Build / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Test / coverage ----
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Type checkers / linters ----
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.cache/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS / Editor ----
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Local artifacts (models, outputs) ----
+artifacts/
+outputs/
+*.log
