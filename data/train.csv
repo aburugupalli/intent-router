@@ -1,0 +1,31 @@
+text,label
+Habt ihr eine Demo diese Woche?,sales
+Kannst du mir was zu euren Preisen sagen?,sales
+Gibt es einen kostenlosen Test?,sales
+"Wir brauchen das für 20 Nutzer, geht das?",sales
+Kann ich mit jemandem sprechen wegen Angebot?,sales
+"Die App lädt nicht, ich sehe nur einen weißen Screen.",support
+Ich bekomme einen Fehler beim Login.,support
+Das Export-Feature funktioniert nicht mehr.,support
+Ich kann kein Passwort zurücksetzen.,support
+Die Integration verbindet sich nicht.,support
+"Meine Rechnung stimmt nicht, da ist etwas doppelt.",billing
+Kann ich die Rechnung auf Firma ausstellen lassen?,billing
+Wo finde ich meine Rechnungen?,billing
+Bitte Zahlungsmethode ändern.,billing
+Warum wurde ich abgebucht?,billing
+Ich möchte kündigen.,cancellation
+Bitte löscht meinen Account.,cancellation
+Wie kann ich mein Abo beenden?,cancellation
+Ich will mein Konto schließen.,cancellation
+Abo stoppen zum Monatsende.,cancellation
+Könnt ihr eine Zapier-Integration bauen?,feature_request
+"Es wäre super, wenn es Dark Mode gäbe.",feature_request
+"Habt ihr geplant, CSV Import zu unterstützen?",feature_request
+Bitte fügt Mehrsprachigkeit hinzu.,feature_request
+Kann man Berichte automatisch planen?,feature_request
+Die neue Oberfläche ist echt besser geworden.,feedback
+Ich finde das Dashboard verwirrend.,feedback
+"Tolles Produkt, aber die Ladezeit ist nervig.",feedback
+Das Onboarding war super verständlich.,feedback
+Ich bin unzufrieden mit der Performance.,feedback
