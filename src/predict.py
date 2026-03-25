@@ -6,7 +6,6 @@ from pathlib import Path
 
 from joblib import load
 
-
 TEMPLATES: dict[str, str] = {
     "sales": "Danke für dein Interesse! Magst du mir kurz sagen: Teamgröße, Use Case und gewünschten Startzeitpunkt?",
     "support": "Danke dir! Kannst du mir kurz sagen: Gerät/Browser, seit wann das Problem besteht und ggf. die genaue Fehlermeldung?",
@@ -39,9 +38,7 @@ def main() -> None:
     args = parse_args()
 
     if not args.model.exists():
-        raise FileNotFoundError(
-            f"Model not found at {args.model}. Train first: uv run python src/train.py"
-        )
+        raise FileNotFoundError(f"Model not found at {args.model}. Train first: uv run python src/train.py")
 
     model = load(args.model)
 
@@ -67,9 +64,7 @@ def main() -> None:
     payload = {
         "text": args.text,
         "top1": {"label": str(top1_label), "p": float(top1_p)},
-        "top2": (
-            {"label": str(top2_label), "p": float(top2_p)} if top2_label is not None else None
-        ),
+        "top2": ({"label": str(top2_label), "p": float(top2_p)} if top2_label is not None else None),
         "intent": intent,
         "confidence": float(top1_p),
         "route": route,
